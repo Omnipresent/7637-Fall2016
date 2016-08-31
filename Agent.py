@@ -251,7 +251,7 @@ class Agent:
 							horizontal_score = horizontal_score + 1
 						for k,v in map_a_b['transformation'][key].iteritems():
 							if len( set(key.split(",")) & set(map_c_sol['transformation'].viewkeys()) ) > 0:
-								if v == map_c_sol['transformation'][key][k]:
+								if k != "inside" and v == map_c_sol['transformation'][key][k]:
 									horizontal_score = horizontal_score + 1
 				possible_score = 0
 				# if map_c_sol["transformation"].viewkeys()
@@ -266,7 +266,10 @@ class Agent:
 					possible_score = possible_score + len(map_a_b['transformation'][k].viewkeys() - set(["inside"]))
 				print "horizontal score: %s " % horizontal_score
 				print "possible score: %s " % possible_score
-				horizontal_score = (horizontal_score / float(possible_score))
+				if possible_score == 0:
+					horizontal_score = 0
+				else:
+					horizontal_score = (horizontal_score / float(possible_score))
 				print "horizontal score: %.2f" % horizontal_score
 
 				vertical_score = 0
@@ -289,7 +292,10 @@ class Agent:
 				for k in map_a_c['transformation'].viewkeys():
 					possible_score = possible_score + len(map_a_c['transformation'][k].viewkeys() - set(["inside"]))
 
-				vertical_score = (vertical_score / float(possible_score))
+				if possible_score == 0:
+					vertical_score = 0
+				else:
+					vertical_score = (vertical_score / float(possible_score))
 				print "vertical score: %.2f" % vertical_score
 
 				scores.append(horizontal_score+vertical_score)
