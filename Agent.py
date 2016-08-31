@@ -60,7 +60,7 @@ def map_objects(figure_1, figure_2, mapping_type):
 	for k,v in mapping.iteritems():
 		if v is None:
 			new = dict()
-			new['hierarchy'] = 'added'
+			new['hierarchy'] = 'deleted'
 			new['name'] = k
 			new['mappedto'] = ''
 			new['size'] = -1
@@ -165,9 +165,13 @@ def find_transformation(mapping, figure_1, figure_2):
 			if mapping[key]['hierarchy'] == "child":
 				transformation[mapping[key]['hierarchy']+str(mapping[key]['size'])] = changes
 			if mapping[key]['hierarchy'] == "added":	
-				j = j + 1
+				
 				# transformation[mapping[key]['hierarchy']+str(i)] = changes
 				transformation['deleted'] = changes
+			if mapping[key]['hierarchy'] == "deleted":
+				print "one"
+				j = j + 1
+				transformation['deleted'+str(j)] = figure_1.objects[mapping[key]['name']].attributes
 			# if len(set(mapping[key]['hierarchy'].split(",")) & set(transformation.viewkeys())) > 0:
 			# 	transformation[mapping[key]['hierarchy']+str(i)] = changes	
 			else:
@@ -193,11 +197,11 @@ class Agent:
 
 		print('solving problem ' + problem.name)
 
-		# if problem.name in ["Basic Problem B-12"]:
-			# return 5
+		if problem.name in ["Basic Problasdfem B-12"]:
+			return 5
 
-		# else:
-		if problem.name == "Basic Problem B-12":
+		else:
+		# if problem.name == "Basic Problem B-12":
 			a = problem.figures["A"]
 			b = problem.figures["B"]
 			c = problem.figures["C"]
@@ -224,15 +228,9 @@ class Agent:
 			scores = []
 			for sol in range(0,6):
 				print int(sol)+1
-				# print solutions[str((sol) + 1)]
+
 				cur_solution = solutions[str((sol) + 1)]
-				# print len(cur_solution.objects)
-				# print "cur_solutions.objects: %d " % len(cur_solution.objects)
-				# print "b.objects: %d " % len(b.objects)
-				# print "c.objects: %d " % len(c.objects)
-				# if len(cur_solution.objects) < len(b.objects) and len(cur_solution.objects) < len(c.objects):
-					# scores.append(0)
-					# continue
+
 				map_c_sol = map_objects(c,cur_solution, "C->cur_solution(Horizontal)")
 				map_c_sol["transformation"] = find_transformation(map_c_sol, c, cur_solution)
 				print map_c_sol
@@ -241,47 +239,47 @@ class Agent:
 				print map_b_sol
 
 				horizontal_score = 0
-				# for key in range(0,len(map_a_b['transformation'])):
+				print map_a_b['transformation'].viewkeys()
+				print any(item.startswith('child') for item in map_a_b['transformation'].viewkeys())
+				print map_c_sol['transformation'].viewkeys()
+				print any(item.startswith('child') for item in map_c_sol['transformation'].viewkeys())
+
 				for key in map_a_b['transformation'].viewkeys():
-					# print map_a_b['transformation'].viewkeys()
-					# print set(key.split(","))
-					# print len(set(key.split(",")) & set(map_a_b['transformation'].viewkeys())) > 0
-					if len(set(key.split(",")) & set(map_a_b['transformation'].viewkeys())) > 0:
+					if len(set(key.split(",")) & set(map_a_b['transformation'].viewkeys())) > 0: #suspecting that this is always true
+						print "enter 1"
+						if key.startswith("deleted") and len( set(key.split(",")) &  set(map_c_sol['transformation'].viewkeys())) > 0:
+							horizontal_score = horizontal_score + 1
 						for k,v in map_a_b['transformation'][key].iteritems():
-							if len(set(key.split(",")) & set(map_c_sol['transformation'].viewkeys())) > 0:
+							if len( set(key.split(",")) & set(map_c_sol['transformation'].viewkeys()) ) > 0:
 								if v == map_c_sol['transformation'][key][k]:
 									horizontal_score = horizontal_score + 1
 				possible_score = 0
-				for k in map_a_b['transformation'].viewkeys():
-					possible_score = possible_score + len(map_a_b['transformation'][k].viewkeys() - set(["inside"]))
+				# if map_c_sol["transformation"].viewkeys()
+				possible_keys = []
+				#if origin contains child but solution does not then take child keys out of consideration
+				if any(item.startswith('child') for item in map_a_b['transformation'].viewkeys()) == True and any(item.startswith('child') for item in map_c_sol['transformation'].viewkeys()) == False:
+					possible_keys = [x for x in map_a_b['transformation'].viewkeys() if not x.startswith('child')]
+				else:
+					possible_keys = map_a_b['transformation'].viewkeys()
 
-				# elements_in_sol = 0
-				# for k in map_c_sol['transformation'].viewkeys():
-				# 	elements_in_sol = elements_in_sol + len(map_c_sol['transformation'][k].viewkeys() - set(["inside"]))
+				for k in possible_keys:
+					possible_score = possible_score + len(map_a_b['transformation'][k].viewkeys() - set(["inside"]))
+				print "horizontal score: %s " % horizontal_score
+				print "possible score: %s " % possible_score
 				horizontal_score = (horizontal_score / float(possible_score))
-				# print "possible score %d" % possible_score
-				# print "new horizontal score: %.2f " % (horizontal_score / float(possible_score))
 				print "horizontal score: %.2f" % horizontal_score
 
 				vertical_score = 0
-				# print len(map_a_c['transformation'])
-				# if (len(map_a_c['transformation']) > len(map_b_sol['transformation'])):
-				# 	print "skipping!!"
-				# 	scores.append(horizontal_score+0)
-				# 	continue
-				# for key in range(0,len(map_a_c['transformation'])):
-				# print map_b_sol['transformation']
-				# print map_a_c['transformation']
-				for key in map_a_c['transformation'].viewkeys():
-					# print key
+				#if origin contains child but solution does not then take child keys out of consideration
+				if any(item.startswith('child') for item in map_a_c['transformation'].viewkeys()) == True and any(item.startswith('child') for item in map_b_sol['transformation'].viewkeys()) == False:
+					possible_keys = [x for x in map_a_c['transformation'].viewkeys() if not x.startswith('child')]
+				else:
+					possible_keys = map_a_b['transformation'].viewkeys()
 
+				for key in possible_keys:
 					if len(set(key.split(",")) & set(map_a_c['transformation'].viewkeys())) > 0:
 						for k,v in map_a_c['transformation'][key].iteritems():
 							if len(set(key.split(",")) & set(map_b_sol['transformation'].viewkeys())) > 0:
-								# print key
-								# print set(key.split(","))
-								# print set(map_b_sol['transformation'].viewkeys())
-
 								if len(set(key.split(",")) & set(map_b_sol['transformation'].viewkeys())) > 0:
 									if len(set(k.split(",")) & set(map_b_sol['transformation'][key].viewkeys())) > 0:
 										if v == map_b_sol['transformation'][key][k]:			
@@ -291,12 +289,7 @@ class Agent:
 				for k in map_a_c['transformation'].viewkeys():
 					possible_score = possible_score + len(map_a_c['transformation'][k].viewkeys() - set(["inside"]))
 
-				# elements_in_sol = 0
-				# for k in map_b_sol['transformation'].viewkeys():
-				# 	elements_in_sol = elements_in_sol + len(map_b_sol['transformation'][k].viewkeys() - set(["inside"]))
-
 				vertical_score = (vertical_score / float(possible_score))
-				# print "new vertical score: %.2f " % (possible_score / float(elements_in_sol))
 				print "vertical score: %.2f" % vertical_score
 
 				scores.append(horizontal_score+vertical_score)
@@ -306,5 +299,5 @@ class Agent:
 			
 			
 			return scores.index(max(scores))+1
-		else:
-			return -1
+		# else:
+			# return -1
