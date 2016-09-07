@@ -1,0 +1,1100 @@
+solving problem Basic Problem B-01
+from A->B
+{'a': {'hierarchy': 'parent', 'mappedto': 'b', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'size': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'size': 'unchanged'}}}
+solutions
+1
+{'c': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->pentagon', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->pentagon', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+2
+{'c': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 3 
+horizontal score: 1.00
+vertical score: 1.00
+3
+{'c': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->triangle', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->triangle', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+4
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->pac-man', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->pac-man', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+5
+{'c': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->star', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->star', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+6
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->heart', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->heart', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+[1.3333333333333333, 2.0, 1.3333333333333333, 1.3333333333333333, 1.3333333333333333, 1.3333333333333333]
+answer: 2
+solving problem Basic Problem B-02
+from A->B
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'b': {'hierarchy': 'child', 'mappedto': 'd', 'property': 'inside', 'size': 1}, 'type': 'A->B(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'a->c', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'a->c', 'fill': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'b': {'hierarchy': 'child', 'mappedto': 'f', 'property': 'inside', 'size': 1}, 'type': 'A->C(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'a->e', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'a->e', 'fill': 'unchanged'}}}
+solutions
+1
+{'e': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'e->g', 'fill': 'unchanged'}, 'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'e->g', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'h', 'property': 'inside', 'size': 1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'child', 'mappedto': 'h', 'property': 'inside', 'size': 1}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'c->g', 'fill': 'unchanged'}, 'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'c->g', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 8 
+possible score: 11 
+horizontal score: 0.73
+vertical score: 0.73
+2
+{'e': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'e->i', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'e->i', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'j', 'property': 'inside', 'size': 1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'child', 'mappedto': 'j', 'property': 'inside', 'size': 1}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'c->i', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 45, 'inside': 'c->i', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 9 
+possible score: 11 
+horizontal score: 0.82
+vertical score: 0.82
+3
+{'e': {'hierarchy': 'parent', 'mappedto': 'k', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'e->k', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'e->k', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'l', 'property': 'inside', 'size': 1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'k', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'child', 'mappedto': 'l', 'property': 'inside', 'size': 1}, 'transformation': {'child1': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'c->k', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'c->k', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 7 
+possible score: 11 
+horizontal score: 0.64
+vertical score: 0.64
+4
+{'e': {'hierarchy': 'parent', 'mappedto': 'm', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'e->m', 'fill': 'unchanged'}, 'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'e->m', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'n', 'property': 'inside', 'size': 1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'm', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'child', 'mappedto': 'n', 'property': 'inside', 'size': 1}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'c->m', 'fill': 'unchanged'}, 'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'c->m', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 10 
+possible score: 11 
+horizontal score: 0.91
+vertical score: 0.91
+5
+{'e': {'hierarchy': 'parent', 'mappedto': 'o', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'e->o', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'e->o', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'p', 'property': 'inside', 'size': 1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'o', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'child', 'mappedto': 'p', 'property': 'inside', 'size': 1}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'c->o', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 'unchanged', 'inside': 'c->o', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 11 
+possible score: 11 
+horizontal score: 1.00
+vertical score: 1.00
+6
+{'e': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'e->q', 'fill': 'unchanged'}, 'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'e->q', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'f', 'property': 'inside', 'size': 1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'child', 'mappedto': 'f', 'property': 'inside', 'size': 1}, 'transformation': {'child1': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'c->q', 'fill': 'unchanged'}, 'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'plus->circle', 'size': 'unchanged', 'angle': 'notfound', 'inside': 'c->q', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 6 
+possible score: 11 
+horizontal score: 0.55
+vertical score: 0.55
+[1.4545454545454546, 1.6363636363636365, 1.2727272727272727, 1.8181818181818181, 2.0, 1.0909090909090908]
+answer: 5
+solving problem Basic Problem B-03
+from A->B
+{'a': {'hierarchy': 'parent', 'mappedto': 'b', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+solutions
+1
+{'c': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 4 
+possible score: 4 
+horizontal score: 1.00
+vertical score: 1.00
+2
+{'c': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+3
+{'c': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'right triangle->pac-man', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'right triangle->pac-man', 'fill': 'unchanged', 'angle': 180, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 4 
+horizontal score: 0.50
+vertical score: 0.50
+4
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 270, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+5
+{'c': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'right triangle->pac-man', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'right triangle->pac-man', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+6
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 270, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 4 
+horizontal score: 0.50
+vertical score: 0.50
+[2.0, 1.5, 1.0, 1.5, 1.5, 1.0]
+answer: 1
+solving problem Basic Problem B-04
+from A->B
+{'a': {'hierarchy': 'parent', 'mappedto': 'b', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}}}
+solutions
+1
+{'c': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+2
+{'c': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 180, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+3
+{'c': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 4 
+possible score: 4 
+horizontal score: 1.00
+vertical score: 0.75
+4
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 180, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+5
+{'c': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 135, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 45, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+6
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 225, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 45, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+[1.5, 1.5, 1.75, 1.5, 1.5, 1.5]
+answer: 3
+solving problem Basic Problem B-05
+from A->B
+['bottom', 'right']
+['bottom', 'left']
+{'a': {'hierarchy': 'parent', 'mappedto': 'b', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'parent': {'shape': 'right triangle->square', 'size': 'unchanged', 'angle': 'notfound', 'alignment': 'right->left', 'fill': 'unchanged'}}}
+from A->C
+['bottom', 'right']
+['top', 'right']
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 90, 'alignment': 'bottom-right->top-right', 'fill': 'unchanged'}}}
+solutions
+1
+['top', 'right']
+['bottom', 'left']
+{'c': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 90, 'alignment': 'top-right->bottom-left', 'fill': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->right triangle', 'size': 'unchanged', 'alignment': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 5 
+horizontal score: 0.40
+vertical score: 0.40
+2
+['top', 'right']
+['bottom', 'left']
+{'c': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'right triangle->square', 'size': 'unchanged', 'angle': 'notfound', 'alignment': 'top-right->bottom-left', 'fill': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'alignment': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 4 
+possible score: 5 
+horizontal score: 0.80
+vertical score: 0.60
+3
+['top', 'right']
+['bottom', 'right']
+{'c': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 90, 'alignment': 'top-right->bottom-right', 'fill': 'unchanged'}}}
+['bottom', 'left']
+['bottom', 'right']
+{'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->right triangle', 'size': 'unchanged', 'alignment': 'left->right', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 5 
+horizontal score: 0.40
+vertical score: 0.40
+4
+['top', 'right']
+['top', 'left']
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'right triangle->square', 'size': 'unchanged', 'angle': 'notfound', 'alignment': 'right->left', 'fill': 'unchanged'}}}
+['bottom', 'left']
+['top', 'left']
+{'b': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'alignment': 'bottom-left->top-left', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 5 
+possible score: 5 
+horizontal score: 1.00
+vertical score: 0.60
+5
+['top', 'right']
+['top', 'left']
+{'c': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'angle': 90, 'alignment': 'right->left', 'fill': 'unchanged'}}}
+['bottom', 'left']
+['top', 'left']
+{'b': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->right triangle', 'size': 'unchanged', 'alignment': 'bottom-left->top-left', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 5 
+horizontal score: 0.60
+vertical score: 0.40
+6
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'right triangle->square', 'size': 'unchanged', 'angle': 'notfound', 'alignment': 'unchanged', 'fill': 'unchanged'}}}
+['bottom', 'left']
+['top', 'right']
+{'b': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'alignment': 'bottom-left->top-right', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 4 
+possible score: 5 
+horizontal score: 0.80
+vertical score: 0.60
+[0.8, 1.4, 0.8, 1.6, 1.0, 1.4]
+answer: 4
+solving problem Basic Problem B-06
+from A->B
+{'a': {'hierarchy': 'child', 'mappedto': 'c', 'property': 'above', 'size': 1}, 'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'b->d', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 'unchanged', 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'b->d', 'size': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'child', 'mappedto': 'e', 'property': 'above', 'size': 1}, 'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'b->f', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'b->f', 'size': 'unchanged'}}}
+solutions
+1
+{'e': {'hierarchy': 'child', 'mappedto': 'g', 'property': 'above', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'f->h', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 270, 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'f->h', 'size': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'g', 'property': 'above', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'd->h', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'd->h', 'size': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 9 
+possible score: 14 
+horizontal score: 0.64
+vertical score: 0.64
+2
+{'e': {'hierarchy': 'child', 'mappedto': 'i', 'property': 'above', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 90, 'above': 'f->j', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 90, 'above': 'f->j', 'size': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'j', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'i', 'property': 'above', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'j', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 'unchanged', 'above': 'd->j', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 'unchanged', 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 'unchanged', 'above': 'd->j', 'size': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 6 
+possible score: 14 
+horizontal score: 0.43
+vertical score: 0.43
+3
+{'e': {'hierarchy': 'child', 'mappedto': 'k', 'property': 'above', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'f->l', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'f->l', 'size': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'l', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'k', 'property': 'above', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'l', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'd->l', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 'unchanged', 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'd->l', 'size': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 8 
+possible score: 14 
+horizontal score: 0.57
+vertical score: 0.57
+4
+{'e': {'hierarchy': 'child', 'mappedto': 'm', 'property': 'above', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'f->n', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'f->n', 'size': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'n', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'm', 'property': 'above', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'n', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'd->n', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 270, 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'd->n', 'size': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 11 
+possible score: 14 
+horizontal score: 0.79
+vertical score: 0.79
+5
+{'e': {'hierarchy': 'child', 'mappedto': 'o', 'property': 'above', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'f->p', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 'unchanged', 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'above': 'f->p', 'size': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'p', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'o', 'property': 'above', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'p', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'd->p', 'size': 'unchanged'}, 'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 270, 'size': 'unchanged'}, 'child': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'above': 'd->p', 'size': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 12 
+possible score: 14 
+horizontal score: 0.86
+vertical score: 0.86
+6
+came here!!!
+one
+{'e': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'e', 'size': -1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'deleted1': {'shape': 'right triangle', 'size': 'huge', 'angle': '180', 'above': 'f', 'fill': 'no'}, 'parent': {'shape': 'right triangle->square', 'fill': 'no->yes', 'angle': 'notfound', 'size': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}}
+came here!!!
+one
+{'c': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'c', 'size': -1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}, 'transformation': {'deleted1': {'shape': 'right triangle', 'size': 'huge', 'angle': '90', 'above': 'd', 'fill': 'no'}, 'parent': {'shape': 'right triangle->square', 'fill': 'unchanged', 'angle': 'notfound', 'size': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['deleted1', 'parent'])
+False
+enter 1
+enter 1
+enter 1
+horizontal score: 2 
+possible score: 4 
+horizontal score: 0.50
+vertical score: 0.14
+[1.2857142857142858, 0.8571428571428571, 1.1428571428571428, 1.5714285714285714, 1.7142857142857142, 0.6428571428571428]
+answer: 5
+solving problem Basic Problem B-07
+from A->B
+{'a': {'hierarchy': 'parent', 'mappedto': 'b', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 270, 'size': 'unchanged'}}}
+solutions
+1
+{'c': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 270, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 4 
+horizontal score: 0.50
+vertical score: 0.50
+2
+{'c': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 180, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 4 
+horizontal score: 0.50
+vertical score: 0.50
+3
+{'c': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'angle': 90, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.50
+4
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 180, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+5
+{'c': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 180, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 4 
+horizontal score: 0.75
+vertical score: 0.75
+6
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'angle': 90, 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'angle': 90, 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 4 
+possible score: 4 
+horizontal score: 1.00
+vertical score: 0.75
+[1.0, 1.0, 1.25, 1.5, 1.5, 1.75]
+answer: 6
+solving problem Basic Problem B-08
+from A->B
+{'a': {'hierarchy': 'parent', 'mappedto': 'b', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}}
+solutions
+1
+{'c': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'right-half->left-half'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->circle', 'size': 'unchanged', 'fill': 'right-half->left-half'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 1 
+possible score: 3 
+horizontal score: 0.33
+vertical score: 0.33
+2
+{'c': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'right-half->left-half'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'right-half->left-half'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+3
+{'c': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->circle', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+4
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'right-half->top-half'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'square->circle', 'size': 'unchanged', 'fill': 'right-half->top-half'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 1 
+possible score: 3 
+horizontal score: 0.33
+vertical score: 0.33
+5
+{'c': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'right-half->bottom-half'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'right-half->bottom-half'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+6
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'circle->square', 'size': 'unchanged', 'fill': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 3 
+horizontal score: 1.00
+vertical score: 1.00
+[0.6666666666666666, 1.3333333333333333, 1.3333333333333333, 0.6666666666666666, 1.3333333333333333, 2.0]
+answer: 6
+solving problem Basic Problem B-09
+from A->B
+{'a': {'hierarchy': 'parent', 'mappedto': 'b', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'size': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'parent': {'shape': 'octagon->square', 'fill': 'unchanged', 'size': 'unchanged'}}}
+solutions
+1
+{'c': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->octagon', 'fill': 'no->yes', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+2
+{'c': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->octagon', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'yes->no', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 1 
+possible score: 3 
+horizontal score: 0.33
+vertical score: 0.33
+3
+{'c': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'octagon->square', 'fill': 'yes->no', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+4
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->diamond', 'fill': 'no->yes', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'octagon->diamond', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.67
+5
+{'c': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'unchanged', 'fill': 'no->yes', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'octagon->square', 'fill': 'unchanged', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 3 
+possible score: 3 
+horizontal score: 1.00
+vertical score: 1.00
+6
+{'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'parent': {'shape': 'square->diamond', 'fill': 'unchanged', 'size': 'unchanged'}}}
+{'b': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'octagon->diamond', 'fill': 'yes->no', 'size': 'unchanged'}}}
+dict_keys(['parent'])
+False
+dict_keys(['parent'])
+False
+enter 1
+horizontal score: 1 
+possible score: 3 
+horizontal score: 0.33
+vertical score: 0.33
+[1.3333333333333333, 0.6666666666666666, 1.3333333333333333, 1.3333333333333333, 2.0, 0.6666666666666666]
+answer: 5
+solving problem Basic Problem B-10
+from A->B
+{'a': {'hierarchy': 'child', 'mappedto': 'c', 'property': 'inside', 'size': 1}, 'b': {'hierarchy': 'parent', 'mappedto': 'd', 'size': 0}, 'type': 'A->B(Horizontal)', 'transformation': {'child1': {'shape': 'circle->square', 'size': 'very large->medium', 'inside': 'b->d', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'circle->square', 'size': 'very large->medium', 'inside': 'b->d', 'fill': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'child', 'mappedto': 'e', 'property': 'inside', 'size': 1}, 'new': {'hierarchy': 'added', 'mappedto': '', 'name': 's', 'size': -1}, 'b': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'type': 'A->C(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'b->f', 'fill': 'unchanged'}, 'added': {'shape': 'square', 'fill': 'yes', 'inside': 'f,e', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'b->f', 'fill': 'unchanged'}}}
+solutions
+1
+{'e': {'hierarchy': 'child', 'mappedto': 'g', 'property': 'inside', 'size': 1}, 's': {'hierarchy': 'child', 'mappedto': 't', 'property': 'inside', 'size': 2}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f->h', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'very small->medium', 'inside': 'f,e->h,g', 'fill': 'yes->no'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f->h', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}}
+{'new': {'hierarchy': 'added', 'mappedto': '', 'name': 't', 'size': -1}, 'c': {'hierarchy': 'child', 'mappedto': 'g', 'property': 'inside', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'h', 'size': 0}, 'transformation': {'child1': {'shape': 'square->circle', 'size': 'medium->very large', 'inside': 'd->h', 'fill': 'unchanged'}, 'added': {'shape': 'square', 'fill': 'no', 'inside': 'h,g', 'size': 'medium'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'square->circle', 'size': 'medium->very large', 'inside': 'd->h', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'child2', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 5 
+possible score: 9 
+horizontal score: 0.56
+vertical score: 0.42
+2
+came here!!!
+one
+{'e': {'hierarchy': 'child', 'mappedto': 'j', 'property': 'inside', 'size': 1}, 's': {'hierarchy': 'deleted', 'mappedto': '', 'name': 's', 'size': -1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'circle->square', 'size': 'very large->very small', 'inside': 'f->i', 'fill': 'no->yes'}, 'deleted1': {'shape': 'square', 'fill': 'yes', 'inside': 'f,e', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'huge->very large', 'fill': 'unchanged'}, 'child': {'shape': 'circle->square', 'size': 'very large->very small', 'inside': 'f->i', 'fill': 'no->yes'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'j', 'property': 'inside', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'medium->very small', 'inside': 'd->i', 'fill': 'no->yes'}, 'parent': {'shape': 'unchanged', 'size': 'huge->very large', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'medium->very small', 'inside': 'd->i', 'fill': 'no->yes'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'deleted1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 4 
+possible score: 9 
+horizontal score: 0.44
+vertical score: 0.33
+3
+{'e': {'hierarchy': 'child', 'mappedto': 'l', 'property': 'inside', 'size': 1}, 's': {'hierarchy': 'child', 'mappedto': 'u', 'property': 'inside', 'size': 2}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'circle->square', 'size': 'very large->medium', 'inside': 'f->k', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f,e->k,l', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'circle->square', 'size': 'very large->medium', 'inside': 'f->k', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'k', 'size': 0}}
+{'new': {'hierarchy': 'added', 'mappedto': '', 'name': 'u', 'size': -1}, 'c': {'hierarchy': 'child', 'mappedto': 'l', 'property': 'inside', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'k', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'd->k', 'fill': 'unchanged'}, 'added': {'shape': 'square', 'fill': 'yes', 'inside': 'k,l', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'd->k', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'child2', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 9 
+possible score: 9 
+horizontal score: 1.00
+vertical score: 0.75
+4
+came here!!!
+one
+{'e': {'hierarchy': 'child', 'mappedto': 'n', 'property': 'inside', 'size': 1}, 's': {'hierarchy': 'deleted', 'mappedto': '', 'name': 's', 'size': -1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'circle->square', 'size': 'very large->very small', 'inside': 'f->m', 'fill': 'no->yes'}, 'deleted1': {'shape': 'square', 'fill': 'yes', 'inside': 'f,e', 'size': 'very small'}, 'parent': {'shape': 'circle->square', 'size': 'huge->medium', 'fill': 'unchanged'}, 'child': {'shape': 'circle->square', 'size': 'very large->very small', 'inside': 'f->m', 'fill': 'no->yes'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'm', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'n', 'property': 'inside', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'm', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'medium->very small', 'inside': 'd->m', 'fill': 'no->yes'}, 'parent': {'shape': 'circle->square', 'size': 'huge->medium', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'medium->very small', 'inside': 'd->m', 'fill': 'no->yes'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'deleted1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 3 
+possible score: 9 
+horizontal score: 0.33
+vertical score: 0.25
+5
+came here!!!
+one
+{'e': {'hierarchy': 'child', 'mappedto': 'p', 'property': 'inside', 'size': 1}, 's': {'hierarchy': 'deleted', 'mappedto': '', 'name': 's', 'size': -1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'circle->square', 'size': 'very large->medium', 'inside': 'f->o', 'fill': 'unchanged'}, 'deleted1': {'shape': 'square', 'fill': 'yes', 'inside': 'f,e', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'huge->very large', 'fill': 'unchanged'}, 'child': {'shape': 'circle->square', 'size': 'very large->medium', 'inside': 'f->o', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'o', 'size': 0}}
+{'c': {'hierarchy': 'child', 'mappedto': 'p', 'property': 'inside', 'size': 1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'o', 'size': 0}, 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'd->o', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'huge->very large', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'd->o', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['child1', 'deleted1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+horizontal score: 8 
+possible score: 9 
+horizontal score: 0.89
+vertical score: 0.67
+6
+came here!!!
+came here!!!
+one
+one
+{'e': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'e', 'size': -1}, 's': {'hierarchy': 'deleted', 'mappedto': '', 'name': 's', 'size': -1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'deleted1': {'shape': 'square', 'fill': 'yes', 'inside': 'f,e', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'huge->very large', 'fill': 'unchanged'}, 'deleted2': {'shape': 'circle', 'fill': 'no', 'inside': 'f', 'size': 'very large'}}, 'f': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}}
+came here!!!
+one
+{'c': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'c', 'size': -1}, 'type': 'B->cur_solution(Vertical)', 'd': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}, 'transformation': {'deleted1': {'shape': 'square', 'fill': 'no', 'inside': 'd', 'size': 'medium'}, 'parent': {'shape': 'unchanged', 'size': 'huge->very large', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'parent', 'child'])
+True
+dict_keys(['deleted1', 'parent', 'deleted2'])
+False
+enter 1
+enter 1
+enter 1
+horizontal score: 2 
+possible score: 3 
+horizontal score: 0.67
+vertical score: 0.17
+[0.9722222222222223, 0.7777777777777777, 1.75, 0.5833333333333333, 1.5555555555555554, 0.8333333333333333]
+answer: 3
+solving problem Basic Problem B-11
+from A->B
+came here!!!
+one
+{'a': {'hierarchy': 'parent', 'mappedto': 'c', 'size': 0}, 'b': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'b', 'size': -1}, 'type': 'A->B(Horizontal)', 'transformation': {'deleted1': {'shape': 'diamond', 'fill': 'yes', 'inside': 'a', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}}
+from A->C
+{'a': {'hierarchy': 'parent', 'mappedto': 'e', 'size': 0}, 'b': {'hierarchy': 'child', 'mappedto': 'f', 'property': 'inside', 'size': 1}, 'type': 'A->C(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'a->e', 'fill': 'unchanged'}, 'parent': {'shape': 'heart->octagon', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'a->e', 'fill': 'unchanged'}}}
+solutions
+1
+came here!!!
+one
+{'e': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'deleted1': {'shape': 'diamond', 'fill': 'yes', 'inside': 'e', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'f', 'size': -1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'g', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'heart->octagon', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['deleted1', 'parent'])
+False
+dict_keys(['deleted1', 'parent'])
+False
+enter 1
+enter 1
+horizontal score: 7 
+possible score: 6 
+horizontal score: 1.17
+vertical score: 0.33
+2
+{'e': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'e->i', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'e->i', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'j', 'property': 'inside', 'size': 1}}
+{'new': {'hierarchy': 'added', 'mappedto': '', 'name': 'j', 'size': -1}, 'c': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'added': {'shape': 'diamond', 'fill': 'yes', 'inside': 'i', 'size': 'very small'}, 'parent': {'shape': 'heart->octagon', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['deleted1', 'parent'])
+False
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+horizontal score: 3 
+possible score: 6 
+horizontal score: 0.50
+vertical score: 0.33
+3
+came here!!!
+one
+{'e': {'hierarchy': 'parent', 'mappedto': 'l', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'added': {'overlaps': 'l', 'shape': 'heart', 'fill': 'no', 'size': 'very large'}, 'deleted1': {'shape': 'diamond', 'fill': 'yes', 'inside': 'e', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}, 'new': {'hierarchy': 'added', 'mappedto': '', 'name': 'k', 'size': -1}, 'f': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'f', 'size': -1}}
+{'new': {'hierarchy': 'added', 'mappedto': '', 'name': 'k', 'size': -1}, 'c': {'hierarchy': 'parent', 'mappedto': 'l', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'added': {'overlaps': 'l', 'shape': 'heart', 'fill': 'no', 'size': 'very large'}, 'parent': {'shape': 'heart->octagon', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['deleted1', 'parent'])
+False
+dict_keys(['added', 'deleted1', 'parent'])
+False
+enter 1
+enter 1
+horizontal score: 7 
+possible score: 6 
+horizontal score: 1.17
+vertical score: 0.33
+4
+came here!!!
+one
+{'e': {'hierarchy': 'parent', 'mappedto': 'r', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'added': {'shape': 'diamond', 'fill': 'yes', 'inside': 'm,r', 'size': 'very small'}, 'deleted1': {'shape': 'diamond', 'fill': 'yes', 'inside': 'e', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}, 'new': {'hierarchy': 'added', 'mappedto': '', 'name': 'n', 'size': -1}, 'f': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'f', 'size': -1}}
+{'new': {'hierarchy': 'added', 'mappedto': '', 'name': 'n', 'size': -1}, 'c': {'hierarchy': 'parent', 'mappedto': 'r', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'added': {'shape': 'diamond', 'fill': 'yes', 'inside': 'm,r', 'size': 'very small'}, 'parent': {'shape': 'heart->octagon', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['deleted1', 'parent'])
+False
+dict_keys(['added', 'deleted1', 'parent'])
+False
+enter 1
+enter 1
+horizontal score: 7 
+possible score: 6 
+horizontal score: 1.17
+vertical score: 0.33
+5
+{'e': {'hierarchy': 'parent', 'mappedto': 'o', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'e->o', 'fill': 'unchanged'}, 'parent': {'shape': 'octagon->heart', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'e->o', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'child', 'mappedto': 'p', 'property': 'inside', 'size': 1}}
+{'new': {'hierarchy': 'added', 'mappedto': '', 'name': 'p', 'size': -1}, 'c': {'hierarchy': 'parent', 'mappedto': 'o', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'added': {'shape': 'diamond', 'fill': 'yes', 'inside': 'o', 'size': 'very small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['deleted1', 'parent'])
+False
+dict_keys(['child1', 'parent', 'child'])
+True
+enter 1
+enter 1
+horizontal score: 2 
+possible score: 6 
+horizontal score: 0.33
+vertical score: 0.22
+6
+came here!!!
+one
+{'e': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'deleted1': {'shape': 'diamond', 'fill': 'yes', 'inside': 'e', 'size': 'very small'}, 'parent': {'shape': 'octagon->heart', 'size': 'unchanged', 'fill': 'unchanged'}}, 'f': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'f', 'size': -1}}
+{'c': {'hierarchy': 'parent', 'mappedto': 'q', 'size': 0}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}}}
+dict_keys(['deleted1', 'parent'])
+False
+dict_keys(['deleted1', 'parent'])
+False
+enter 1
+enter 1
+horizontal score: 6 
+possible score: 6 
+horizontal score: 1.00
+vertical score: 0.22
+[1.5, 0.8333333333333333, 1.5, 1.5, 0.5555555555555556, 1.2222222222222223]
+answer: 1
+solving problem Basic Problem B-12
+from A->B
+came here!!!
+came here!!!
+one
+one
+{'a': {'hierarchy': 'parent', 'mappedto': 'f', 'size': 0}, 'c': {'hierarchy': 'child', 'mappedto': 'h', 'property': 'inside', 'size': 2}, 'b': {'hierarchy': 'child', 'mappedto': 'g', 'property': 'inside', 'size': 1}, 'e': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'e', 'size': -1}, 'd': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'd', 'size': -1}, 'type': 'A->B(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'very large->medium', 'inside': 'a->f', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'large->small', 'inside': 'a,b->f,g', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'huge->large', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'very large->medium', 'inside': 'a->f', 'fill': 'unchanged'}, 'deleted1': {'shape': 'circle', 'fill': 'no', 'inside': 'a,b,c,d', 'size': 'small'}, 'deleted2': {'shape': 'circle', 'fill': 'no', 'inside': 'a,b,c', 'size': 'medium'}}}
+from A->C
+came here!!!
+came here!!!
+one
+one
+{'a': {'hierarchy': 'parent', 'mappedto': 'i', 'size': 0}, 'c': {'hierarchy': 'child', 'mappedto': 'k', 'property': 'inside', 'size': 2}, 'b': {'hierarchy': 'child', 'mappedto': 'j', 'property': 'inside', 'size': 1}, 'e': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'e', 'size': -1}, 'd': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'd', 'size': -1}, 'type': 'A->C(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'a->i', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'a,b->i,j', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'a->i', 'fill': 'unchanged'}, 'deleted1': {'shape': 'circle', 'fill': 'no', 'inside': 'a,b,c,d', 'size': 'small'}, 'deleted2': {'shape': 'circle', 'fill': 'no', 'inside': 'a,b,c', 'size': 'medium'}}}
+solutions
+1
+came here!!!
+came here!!!
+one
+one
+{'i': {'hierarchy': 'parent', 'mappedto': 'l', 'size': 0}, 'k': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'k', 'size': -1}, 'j': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'j', 'size': -1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'deleted1': {'shape': 'circle', 'fill': 'no', 'inside': 'i,j', 'size': 'large'}, 'parent': {'shape': 'unchanged', 'size': 'huge->large', 'fill': 'unchanged'}, 'deleted2': {'shape': 'circle', 'fill': 'no', 'inside': 'i', 'size': 'very large'}}}
+came here!!!
+came here!!!
+one
+one
+{'h': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'h', 'size': -1}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'deleted1': {'shape': 'circle', 'fill': 'no', 'inside': 'f,g', 'size': 'small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'deleted2': {'shape': 'circle', 'fill': 'no', 'inside': 'f', 'size': 'medium'}}, 'g': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'g', 'size': -1}, 'f': {'hierarchy': 'parent', 'mappedto': 'l', 'size': 0}}
+dict_keys(['child1', 'child2', 'parent', 'child', 'deleted1', 'deleted2'])
+True
+dict_keys(['deleted1', 'parent', 'deleted2'])
+False
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+horizontal score: 9 
+possible score: 9 
+horizontal score: 1.00
+vertical score: 0.50
+2
+{'i': {'hierarchy': 'parent', 'mappedto': 'm', 'size': 0}, 'k': {'hierarchy': 'child', 'mappedto': 'o', 'property': 'inside', 'size': 2}, 'j': {'hierarchy': 'child', 'mappedto': 'n', 'property': 'inside', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'i->m', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'i,j->m,n', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'i->m', 'fill': 'unchanged'}}}
+{'h': {'hierarchy': 'child', 'mappedto': 'o', 'property': 'inside', 'size': 2}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'medium->very large', 'inside': 'f->m', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'small->large', 'inside': 'f,g->m,n', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'large->huge', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'medium->very large', 'inside': 'f->m', 'fill': 'unchanged'}}, 'g': {'hierarchy': 'child', 'mappedto': 'n', 'property': 'inside', 'size': 1}, 'f': {'hierarchy': 'parent', 'mappedto': 'm', 'size': 0}}
+dict_keys(['child1', 'child2', 'parent', 'child', 'deleted1', 'deleted2'])
+True
+dict_keys(['child1', 'child2', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+horizontal score: 8 
+possible score: 18 
+horizontal score: 0.44
+vertical score: 0.44
+3
+{'i': {'hierarchy': 'parent', 'mappedto': 'p', 'size': 0}, 'k': {'hierarchy': 'child', 'mappedto': 'r', 'property': 'inside', 'size': 2}, 'j': {'hierarchy': 'child', 'mappedto': 'q', 'property': 'inside', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'very large->medium', 'inside': 'i->p', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'large->small', 'inside': 'i,j->p,q', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'huge->large', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'very large->medium', 'inside': 'i->p', 'fill': 'unchanged'}}}
+{'h': {'hierarchy': 'child', 'mappedto': 'r', 'property': 'inside', 'size': 2}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f->p', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f,g->p,q', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f->p', 'fill': 'unchanged'}}, 'g': {'hierarchy': 'child', 'mappedto': 'q', 'property': 'inside', 'size': 1}, 'f': {'hierarchy': 'parent', 'mappedto': 'p', 'size': 0}}
+dict_keys(['child1', 'child2', 'parent', 'child', 'deleted1', 'deleted2'])
+True
+dict_keys(['child1', 'child2', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+horizontal score: 12 
+possible score: 18 
+horizontal score: 0.67
+vertical score: 0.67
+4
+{'i': {'hierarchy': 'parent', 'mappedto': 's', 'size': 0}, 'k': {'hierarchy': 'child', 'mappedto': 'u', 'property': 'inside', 'size': 2}, 'j': {'hierarchy': 'child', 'mappedto': 't', 'property': 'inside', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'very large->large', 'inside': 'i->s', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'large->small', 'inside': 'i,j->s,t', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'very large->large', 'inside': 'i->s', 'fill': 'unchanged'}}}
+{'h': {'hierarchy': 'child', 'mappedto': 'u', 'property': 'inside', 'size': 2}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'medium->large', 'inside': 'f->s', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f,g->s,t', 'fill': 'unchanged'}, 'parent': {'shape': 'unchanged', 'size': 'large->huge', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'medium->large', 'inside': 'f->s', 'fill': 'unchanged'}}, 'g': {'hierarchy': 'child', 'mappedto': 't', 'property': 'inside', 'size': 1}, 'f': {'hierarchy': 'parent', 'mappedto': 's', 'size': 0}}
+dict_keys(['child1', 'child2', 'parent', 'child', 'deleted1', 'deleted2'])
+True
+dict_keys(['child1', 'child2', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+horizontal score: 9 
+possible score: 18 
+horizontal score: 0.50
+vertical score: 0.50
+5
+came here!!!
+one
+{'i': {'hierarchy': 'parent', 'mappedto': 'v', 'size': 0}, 'k': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'k', 'size': -1}, 'j': {'hierarchy': 'child', 'mappedto': 'w', 'property': 'inside', 'size': 1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'very large->medium', 'inside': 'i->v', 'fill': 'unchanged'}, 'deleted1': {'shape': 'circle', 'fill': 'no', 'inside': 'i,j', 'size': 'large'}, 'parent': {'shape': 'unchanged', 'size': 'huge->very large', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'very large->medium', 'inside': 'i->v', 'fill': 'unchanged'}}}
+came here!!!
+one
+{'h': {'hierarchy': 'deleted', 'mappedto': '', 'name': 'h', 'size': -1}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f->v', 'fill': 'unchanged'}, 'deleted1': {'shape': 'circle', 'fill': 'no', 'inside': 'f,g', 'size': 'small'}, 'parent': {'shape': 'unchanged', 'size': 'large->very large', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'f->v', 'fill': 'unchanged'}}, 'g': {'hierarchy': 'child', 'mappedto': 'w', 'property': 'inside', 'size': 1}, 'f': {'hierarchy': 'parent', 'mappedto': 'v', 'size': 0}}
+dict_keys(['child1', 'child2', 'parent', 'child', 'deleted1', 'deleted2'])
+True
+dict_keys(['child1', 'deleted1', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+horizontal score: 11 
+possible score: 18 
+horizontal score: 0.61
+vertical score: 0.61
+6
+{'i': {'hierarchy': 'parent', 'mappedto': 'x', 'size': 0}, 'k': {'hierarchy': 'child', 'mappedto': 'z', 'property': 'inside', 'size': 2}, 'j': {'hierarchy': 'child', 'mappedto': 'y', 'property': 'inside', 'size': 1}, 'new': {'hierarchy': 'added', 'mappedto': '', 'name': '2', 'size': -1}, 'type': 'C->cur_solution(Horizontal)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'i->x', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'i,j->x,y', 'fill': 'unchanged'}, 'added': {'shape': 'circle', 'fill': 'no', 'inside': 'x,y,z,1', 'size': 'small'}, 'parent': {'shape': 'unchanged', 'size': 'unchanged', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'unchanged', 'inside': 'i->x', 'fill': 'unchanged'}}}
+{'g': {'hierarchy': 'child', 'mappedto': 'y', 'property': 'inside', 'size': 1}, 'f': {'hierarchy': 'parent', 'mappedto': 'x', 'size': 0}, 'h': {'hierarchy': 'child', 'mappedto': 'z', 'property': 'inside', 'size': 2}, 'new': {'hierarchy': 'added', 'mappedto': '', 'name': '2', 'size': -1}, 'type': 'B->cur_solution(Vertical)', 'transformation': {'child1': {'shape': 'unchanged', 'size': 'medium->very large', 'inside': 'f->x', 'fill': 'unchanged'}, 'child2': {'shape': 'unchanged', 'size': 'small->large', 'inside': 'f,g->x,y', 'fill': 'unchanged'}, 'added': {'shape': 'circle', 'fill': 'no', 'inside': 'x,y,z,1', 'size': 'small'}, 'parent': {'shape': 'unchanged', 'size': 'large->huge', 'fill': 'unchanged'}, 'child': {'shape': 'unchanged', 'size': 'medium->very large', 'inside': 'f->x', 'fill': 'unchanged'}}}
+dict_keys(['child1', 'child2', 'parent', 'child', 'deleted1', 'deleted2'])
+True
+dict_keys(['child1', 'child2', 'added', 'parent', 'child'])
+True
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+enter 1
+horizontal score: 8 
+possible score: 18 
+horizontal score: 0.44
+vertical score: 0.44
+[1.5, 0.8888888888888888, 1.3333333333333333, 1.0, 1.2222222222222223, 0.8888888888888888]
+answer: 1

@@ -206,14 +206,7 @@ class Agent:
 			b = problem.figures["B"]
 			c = problem.figures["C"]
 
-			_1 = problem.figures["1"]
-			_2 = problem.figures["2"]
-			_3 = problem.figures["3"]
-			_4 = problem.figures["4"]
-			_5 = problem.figures["5"]
-			_6 = problem.figures["6"]
-
-			solutions = {"1": _1, "2": _2,"3": _3,"4": _4,"5": _5,"6": _6}
+			solutions = {"1": problem.figures["1"], "2": problem.figures["2"],"3": problem.figures["3"],"4": problem.figures["4"],"5": problem.figures["5"],"6": problem.figures["6"]}
 			# generate our initial semantic network to test against
 			print "from A->B"
 			map_a_b = map_objects(a, b,"A->B(Horizontal)")
